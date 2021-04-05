@@ -1,7 +1,6 @@
 html {font-size: 100%;}
 
-.page-container @media only screen and (min-width: 950px) and (max-width:1200px) {
-  viewport-fit: 100px
+.page-container
 }
 {
 	min-height: 100%; 
@@ -109,6 +108,20 @@ a:hover{color: #000;}
   margin: 0;
   padding: 0;
 }
+
+<style>
+			@import url(tiny.css) (min-width:300px);
+			@import url(small.css) (min-width:600px);
+			@import url(big.css) (min-width:900px);
+		   </style>
+		   
+		   @media screen and (min-width: 200px) and (max-width: 640px)
+
+       @media screen and (min-width: 600px) and (orientation:landscape)
+       
+       @media screen and (max-width: 380px) and (orientation:portrait){
+         
+       }
 
 
 /*----- padding ----*/
