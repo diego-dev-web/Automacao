@@ -1,5 +1,5 @@
-@media screen and (max-width: 900px) {
-	
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+	viewport-fit: 100%;
 }
 
 	.container, .inner-container{
@@ -23,12 +23,10 @@
 	}
 	.bloc-img.bordered {max-width: 100%; }
 	.vlightbox-cont .vlightbox1 img {width: auto!important; }
-}
-
+}	
 
 @media screen and (max-width: 750px) {
-	viewport-fit: 100%;
-
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -77,6 +75,7 @@
 		
 			flex-direction: row;
 			width:70% 
+			
 
 
 	}
