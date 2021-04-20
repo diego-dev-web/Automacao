@@ -1,11 +1,8 @@
-@media screen and (min-width: 200px) and (max-width: 1200px) {
-	viewport-fit: 100%;
-}
+@media screen and (min-width: 550px)  (max-width: 1200px) {
 
 	.container, .inner-container{
-		padding: 10px;
-		width: 100%;
-		
+		padding: 15px;
+		width:100%;
 	}
 	.page-container.container {width: 100%; }
 	.logo {
@@ -19,14 +16,14 @@
 	.content-text {
 	  margin: 1em 0;
 	  width: 100%;
-	  
 	}
 	.bloc-img.bordered {max-width: 100%; }
 	.vlightbox-cont .vlightbox1 img {width: auto!important; }
-}	
+}
+
 
 @media screen and (max-width: 750px) {
-	
+
 }
 
 @media screen and (max-width: 500px) {
@@ -67,17 +64,8 @@
 	.vlightbox-cont .vlightbox1 img {width: 100%!important; }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 320px) {
 
-	nav {
-			flex-direction: row;
-			justify-content: space-around;
-		
-			flex-direction: row;
-			width:70% 
-			
-
-
-	}
 }
 
+}

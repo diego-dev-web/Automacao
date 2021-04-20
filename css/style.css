@@ -1,8 +1,6 @@
 html {font-size: 100%;}
 
-.page-container
-}
-{
+.page-container {
 	min-height: 100%; 
 	position: relative; 
 	margin:0 auto;
@@ -25,9 +23,7 @@ body{
   background: -ms-linear-gradient(top,  #0c0c0c 0%,#404040 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #0c0c0c 0%,#404040 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c0c0c', endColorstr='#404040',GradientType=0 ); /* IE6-9 */
-  
 }
-
 
 p {
   color: #fff;
@@ -162,7 +158,7 @@ img.fl {margin:4px 10px 0 0; }
 .full-width {width: 100% !important; }
 
 .show-mobile {
-  display: none !important;
+  display: none; !important;
   margin: 0 auto;
 }
 
@@ -769,5 +765,56 @@ aside a, aside .bloc a {
 aside a:hover, aside .bloc a:hover {
   text-decoration: none;
 }
+a{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
 
+}
+
+body {
+  background-color: #bdc3c7;
+}
+
+.s-m{
+  position:absolute;
+  top: 50%;
+  left: 28px;
+  transform: translate(-50%,-50% );
+  
+  
+}
+
+.s-m a{
+
+  display:block;
+  width: 40px;
+  height: 40px;
+  background-color: #d9e0eb;
+  color:black;
+  margin: 11px;
+  padding: 9px;
+  border-radius: 50%;
+  transition: 0.3s;
+  font-size: 23px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.s-m a:hover{
+
+  background-color: #34ece3;
+}
+
+.s-ma i{
+
+  transition: 0.5s all;
+}
+.s-m a:hover > i{
+
+    transform: scale(1.4)rotate(26deg;)
+}
+}
 /*------ buy -----*/ 
