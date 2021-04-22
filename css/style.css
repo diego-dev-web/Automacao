@@ -779,7 +779,7 @@ body {
 .s-m{
   position:fixed;
   top: 40%;
-  left: 28px;
+  left: 40px;
   transform: translate(-50%,-50% );
   
   
@@ -816,5 +816,6 @@ body {
 
     transform: scale(1.4)rotate(26deg;)
 }
+
 }
 /*------ buy -----*/ 
