@@ -61,7 +61,7 @@
 	.menu-footer li {padding: 0.3em; }
 	.logo h1 {padding: 10px 0 20px; }
 	nav li {width: 23%; }
-	nav a {width: 100vh; }
+	nav a {width: 100%; }
 	.vlightbox-cont .vlightbox1 img {width: 100%!important; }
 }
 
