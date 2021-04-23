@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 900px) {
+@media screen and (min-width: 350px) and (max-width: 1200px) {
 	
 
 	.container, .inner-container{
@@ -8,11 +8,11 @@
 	.page-container.container {width: 100%; }
 	.logo {
 	  display: block;
-	  margin: 0px auto;
+	  margin: 0 auto;
 	  width: 100%;
 	}
 	.show-mobile{display: block;}
-	.contact-content form {width: 100%; }
+	.contact-content form {width: 100%-->; }
 	textarea {min-height: 100%; }
 	.content-text {
 	  margin: 1em 0;
