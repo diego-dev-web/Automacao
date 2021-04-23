@@ -1,4 +1,4 @@
-@media screen and (max-width: 100vh)  {
+@media screen and (min-width: 350px) and (max-width: 900px) {
 	
 
 	.container, .inner-container{
@@ -8,18 +8,18 @@
 	.page-container.container {width: 100%; }
 	.logo {
 	  display: block;
-	  margin: 0 auto;
-	  width: 290px;
+	  margin: 0px auto;
+	  width: 100%;
 	}
 	.show-mobile{display: block;}
 	.contact-content form {width: 100%; }
-	textarea {min-height: 100px; }
+	textarea {min-height: 100%; }
 	.content-text {
 	  margin: 1em 0;
 	  width: 100%;
 	}
 	.bloc-img.bordered {max-width: 100%; }
-	.vlightbox-cont .vlightbox1 img {width: auto!important; }
+	.vlightbox-cont .vlightbox1 img {width: 100%!important; }
 }
 
 
@@ -27,7 +27,7 @@
 
 }
 
-@media screen and (min-width: 550px) and (max-width: 900px) {
+@media screen and (min-width: 300px) (max-width: 1200px) {
 
 	label {
 	  display: inline-block;
@@ -61,12 +61,13 @@
 	.menu-footer li {padding: 0.3em; }
 	.logo h1 {padding: 10px 0 20px; }
 	nav li {width: 23%; }
-	nav a {width: 100%; }
+	nav a {width: 100vh; }
 	.vlightbox-cont .vlightbox1 img {width: 100%!important; }
 }
 
 @media screen and (max-width: 320px) {
 
+	
 }
 
 }
