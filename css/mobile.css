@@ -65,9 +65,12 @@
 	.vlightbox-cont .vlightbox1 img {width: 100%!important; }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
 
-	
+	.s-m {
+		display:  none;
+		visibility: hidden;
+	}
 }
 
 }
